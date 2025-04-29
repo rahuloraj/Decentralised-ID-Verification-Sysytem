@@ -27,7 +27,7 @@ A  DApp to register, verify, and retrieve user identity securely using Ethereum 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/NehalSahu8055/Decentralised-Identity-Verification-Sysytem-Using-Blockchain
+git clone https://github.com/rahuloraj/Decentralised-Identity-Verification-Sysytem
 cd <project-folder>
 ```
 
