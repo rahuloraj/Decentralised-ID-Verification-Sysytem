@@ -1,6 +1,6 @@
 # 🔐 Decentralised Identity Verification System Using Blockchain
 
-A simple DApp to register, verify, and retrieve user identity securely using Ethereum blockchain.
+A  DApp to register, verify, and retrieve user identity securely using Ethereum blockchain.
 
 **Livesite Link**: https://identity-dapp-nehal.netlify.app/
 ---
