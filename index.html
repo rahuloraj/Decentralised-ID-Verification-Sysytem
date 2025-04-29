@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Identity Verification</title>
+ <link rel="shortcut icon" href="./frontend/favicon.png" type="image/x-icon"> 
+  <link rel="stylesheet" href="./frontend/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+  <h1 class="main-heading">
+	<img src="./frontend/user-id.png" width="120" alt="">
+	<span>Identity Verification DApp</span>
+  </h1>
+
+  <!-- Register Identity -->
+ <div class="main-container">
+	<div class="cards">
+		<h2>📝 Register Identity</h2>
+		<input type="text" id="fullName" placeholder="Full Name" />
+		<input type="number" id="idNumber" placeholder="ID Number" />
+		<button onclick="registerIdentity()">Register</button>
+	</div>
+  
+	<div class="cards">
+		<!-- Verify Identity (admin only) -->
+		<h2>✔️ Verify Identity</h2>
+		<input type="text" id="verifyAddress" placeholder="User Address" />
+		<button onclick="verifyIdentity()">Verify</button>
+	</div>
+  
+	<div class="cards">
+		<!-- Get Identity -->
+		<h2>📰 Get Identity</h2>
+		<input type="text" id="getIdentityAddress" placeholder="User Address" />
+		<button onclick="getIdentity()">Get Identity</button>
+		<div id="identityDetails"></div>
+	</div>
+ </div>
+
+  <script src="./frontend/main.js"></script>
+</body>
+</html>

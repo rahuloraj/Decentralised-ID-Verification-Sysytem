@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-bottom: 2px white;
+  }
+  .main-container{
+     display: flex;
+     gap:4rem;
+    flex-direction: row;
+    
+  }
+  .main-container .cards{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-container .cards button{
+    margin-right: auto;  
+  }
+  h1 {
+    color: #cdd6dd;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    color: #c3d3e4;
+    margin-top: 2rem;
+  }
+
+  input {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #e79eff;
+    font-size: 1rem;
+    background-color: #c3d3e4;;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  #identityDetails {
+    margin-top: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+
+  input::placeholder {
+    color: #aaa;
+  }
